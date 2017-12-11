@@ -1,1 +1,1 @@
-# GIPHYup-
+# GIPHYup
