@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+      
+    <title>MW's GIPHY'S HW</title>
+      
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <!-- Additional Styling -->
+    <link href="https://fonts.googleapis.com/css?family=Spectral+SC" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Itim" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h1>My GIPHYs Page</h1>
+                </div>
+            </div>
+        </div>	
+    </header>
+
+    <div class="container">
+            <div class="row">
+                <div class = "col-md-8 text-center">
+                    <div id="buttonsBlock">
+                        <button class="fav" data-category="rock climbing">This Rocks!</button>
+                        <button class="fav" data-category="programming">My Life</button>
+                        <button class="fav" data-category="people-fail">People being People</button>
+                        <br><br>
+                    </div>
+                </div>
+
+                <div class = "col-md-4 text-center">
+                    <div id="searchBlock">
+                    <form role="form">
+                        <div class="form-group">
+                            <label for="search">Search:</label>
+                                <input type="text" class="form-control" id="search-term">
+                        </div>
+                    <button type="submit" class="btn btn-default" id="run-search"><i class="fa fa-search"></i> Search</button>
+                    </form>
+                    </div>
+                </div>
+
+            </div>
+            
+            <div class="row">
+                <div class = "col-md-12 text-left" id="ResultsDiv">
+                    <h3>Search Results</h3>
+                    <div id="gifsBlock">
+                    </div>
+                </div>
+
+            </div>
+    </div>
+
+    <footer class = "container-fluid">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h6>@Copyright 2017 Miguel Woroniak</h6>
+                </div>
+            </div>
+    </footer>
+    
+
+
+<!-- jQuery CDN -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<!-- Bootstrap JavaScript CDN -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<!-- External JS File here -->
+<script src="./assets/javascript/app.js"></script>
+
+</body>
+</html>
